@@ -19,6 +19,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @RestController
 @RequestMapping("/api/maxflow")
+@CrossOrigin
 public class MaxFlowController {
     @Autowired
     private MaxFlowService maxFlowService;
